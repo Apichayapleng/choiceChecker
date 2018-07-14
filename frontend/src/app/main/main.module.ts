@@ -3,12 +3,17 @@ import { CommonModule } from '@angular/common';
 
 import { MainRoutingModule } from './main-routing.module';
 import { MainComponent } from './main.component';
+import { FeaturesModule } from '../features/features.module';
 
 @NgModule({
   imports: [
     CommonModule,
-    MainRoutingModule
+    MainRoutingModule,
+    FeaturesModule
   ],
-  declarations: [MainComponent]
+  declarations: [
+    MainComponent,
+  
+  ]
 })
 export class MainModule { }
